@@ -1,0 +1,72 @@
+.playbar{
+  padding: 20px 20px;
+  width: 300px;
+  display: flex;
+}
+.preview_direction{
+  display: flex;
+  gap: 25px;
+  width: 500px;
+}
+
+.preview{
+  border: 1px solid #000000;
+  width: 200px;
+  height: 200px;
+  border-radius: 30%;
+}
+
+.credits{
+  width: 300px;
+  h4{
+    color: #000000;
+    font-size: 40px;
+  }
+
+  p{
+    color: rgba(2, 38, 58, 0.95);
+    font-size: 30px;
+  }
+}
+
+.slider_iconItem{
+  border: 1px solid #000000;
+  margin: 45px 0 0 0;
+  display: inline-block;
+  background: #fff;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.img_icon_pred_sled{
+  display: flex;
+  justify-content: center;
+
+  img{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    transition: transform 0.2s;
+
+    &:active{
+      transform: translateY(2px);
+    }
+  }
+}
+
+.slider{
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+}
+
+.volumeSlider{
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  margin-left:46px;
+
+}

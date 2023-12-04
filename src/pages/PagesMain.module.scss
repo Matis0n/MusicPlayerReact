@@ -1,0 +1,23 @@
+.search {
+    border: 1px solid white;
+    flex: 1;
+    border-radius:20px;
+    background: white;
+}
+
+.input {
+    width: 300px;
+    margin: 5px 150px;
+}
+
+.list {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-height: calc(100vh - 400px);
+    overflow: auto;
+    padding: 5px 13px;
+    border-radius: 20px;
+    width: calc(100% - 50px);
+}
